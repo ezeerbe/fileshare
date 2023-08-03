@@ -1,0 +1,15 @@
+{
+  "name": "fylo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
