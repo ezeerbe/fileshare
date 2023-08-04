@@ -13,8 +13,8 @@
         rel="stylesheet">
 </head>
 
-<body class="font-opensans dark:bg-darkBlue dark:text-white">
-    <header class="flex flex-col items-center justify-center md:flex-row md:justify-between p-10">
+<body class="font-opensans dark:bg-darkBlue dark:text-white p-10 flex flex-col space-y-20">
+    <header class="flex flex-col items-center justify-center md:flex-row md:justify-between">
         <img class="dark:hidden" src="images/logo-light-mode.svg" alt="logo">
         <img class="hidden dark:block" src="images/logo-dark-mode.svg" alt="logo">
         <div class="md:mt-0 mt-10 flex flex-row items-center justify-center space-x-6">
@@ -37,6 +37,14 @@
             </button>
         </div>
     </header>
+    <session
+        class="flex flex-col items-center justify-center max-w-4xl mx-auto space-y-10 bg-curvy-light-mode dark:bg-curvy-dark-mode bg-no-repeat bg-contain bg-bottom">
+        <img src="images/illustration-intro.png" alt="" srcset="">
+        <h1 class="max-w-3xl leading-normal text-center font-bold text-3xl md:text-4xl">All your files in one secure location, assessible anywhere.</h2>
+        <p class="max-w-sm text-sm md:max-w-lg md:text-lg text-center mx-auto">Fylo stores all your most important files in one secure location. Access them
+                wherever you need, share and collaborate with friends family, and co-workers.</p>
+        <button type="button" class="w-52 rounded-full bg-accentCyan p-3 hover:scale-95">Get Started</button>
+    </session>
     <script src="scripts.js"></script>
 </body>
 
