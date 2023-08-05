@@ -13,8 +13,8 @@
         rel="stylesheet">
 </head>
 
-<body class="font-opensans dark:bg-darkBlue dark:text-white p-10 flex flex-col space-y-20">
-    <header class="flex flex-col items-center justify-center md:flex-row md:justify-between">
+<body class="font-opensans dark:bg-darkBlue dark:text-white py-10 flex flex-col">
+    <header class="px-10 flex flex-col items-center justify-center md:flex-row md:justify-between">
         <img class="dark:hidden" src="images/logo-light-mode.svg" alt="logo">
         <img class="hidden dark:block" src="images/logo-dark-mode.svg" alt="logo">
         <div class="md:mt-0 mt-10 flex flex-row items-center justify-center space-x-6">
@@ -38,12 +38,48 @@
         </div>
     </header>
     <session
-        class="flex flex-col items-center justify-center space-y-10 bg-curvy-light-mode dark:bg-curvy-dark-mode bg-no-repeat bg-contain bg-bottom">
+        class="px-10 pb-32 pt-20 flex flex-col items-center justify-center space-y-10 bg-curvy-light-mode dark:bg-curvy-dark-mode bg-no-repeat bg-contain bg-bottom">
         <img src="images/illustration-intro.png" alt="" srcset="">
-        <h1 class="max-w-3xl leading-normal text-center font-bold text-3xl md:text-4xl">All your files in one secure location, assessible anywhere.</h2>
-        <p class="max-w-sm text-sm md:max-w-lg md:text-lg text-center mx-auto">Fylo stores all your most important files in one secure location. Access them
+        <h1 class="max-w-3xl leading-normal text-center font-bold text-3xl md:text-4xl">All your files in one secure
+            location, assessible anywhere.</h2>
+            <p class="max-w-sm text-sm md:max-w-lg md:text-lg text-center mx-auto">Fylo stores all your most important
+                files in one secure location. Access them
                 wherever you need, share and collaborate with friends family, and co-workers.</p>
-        <button type="button" class="w-52 rounded-full bg-accentCyan p-3 hover:scale-95">Get Started</button>
+            <button type="button" class="w-52 rounded-full bg-accentCyan p-3 hover:scale-95">Get Started</button>
+    </session>
+    <session class="bg-gray-50 dark:bg-darkBlue flex flex-col text-center">
+        <div class="px-6 container space-y-24">
+            <div class="flex flex-col items-center justify-center space-y-24 md:flex-row md:space-y-0">
+                <div class="flex flex-col items-center justify-center space-y-5 md:w-1/2">
+                    <img src="images/icon-access-anywhere.svg" alt="" srcset="">
+                    <h2 class="text-xl font-bold">Access your file from anywhere</h2>
+                    <p class="max-w-md">The ability to use a smartphone, tablet, or computer to access your account
+                        means your files follow you everywhere.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-5 md:w-1/2">
+                    <img src="images/icon-security.svg" alt="" srcset="">
+                    <h2 class="text-xl font-bold">Security you can trust</h2>
+                    <p class="max-w-md">2-factor authentication and user-controlled encryption are just a
+                        couple of the security features we allow to help secure your
+                        files.</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center space-y-24 md:flex-row md:space-y-0">
+                <div class="flex flex-col items-center justify-center space-y-5 md:w-1/2">
+                    <img src="images/icon-collaboration.svg" alt="" srcset="">
+                    <h2 class="text-xl font-bold">Access your file from anywhere</h2>
+                    <p class="max-w-md">The ability to use a smartphone, tablet, or computer to access your account
+                        means your files follow you everywhere.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-5 md:w-1/2">
+                    <img src="images/icon-any-file.svg" alt="" srcset="">
+                    <h2 class="text-xl font-bold">Security you can trust</h2>
+                    <p class="max-w-md">2-factor authentication and user-controlled encryption are just a
+                        couple of the security features we allow to help secure your
+                        files.</p>
+                </div>
+            </div>
+        </div>
     </session>
     <script src="scripts.js"></script>
 </body>
