@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       colors:{
         darkBlue: 'hsl(217, 28%, 15%)',
-        accentCyan: 'hsl(176, 68%, 64%)'
+        accentCyan: 'hsl(176, 68%, 64%)',
+        darkBlue3: 'hsl(219, 30%, 18%)'
       },
       fontFamily:{
         "opensans":["Open Sans","sans-serif"]
