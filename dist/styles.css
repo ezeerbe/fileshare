@@ -577,44 +577,20 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-\[\] {
-  margin-top: ;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
-.mt-\[-1\] {
-  margin-top: -1;
+.mt-20 {
+  margin-top: 5rem;
 }
 
-.mt-\[-10\] {
-  margin-top: -10;
+.mt-24 {
+  margin-top: 6rem;
 }
 
-.mt-\[-25\] {
-  margin-top: -25;
-}
-
-.mt-\[-\] {
-  margin-top: -;
-}
-
-.mt-\[-10rem\] {
-  margin-top: -10rem;
-}
-
-.mt-\[-10px\] {
-  margin-top: -10px;
-}
-
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-2 {
-  margin-top: -0.5rem;
-}
-
-.-mt-24 {
-  margin-top: -6rem;
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -641,12 +617,16 @@ video {
   max-width: 48rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .flex-row {
@@ -677,22 +657,16 @@ video {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
-.space-y-20 > :not([hidden]) ~ :not([hidden]) {
+.space-y-24 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+  margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(6rem * var(--tw-space-y-reverse));
 }
 
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
-.space-y-24 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(6rem * var(--tw-space-y-reverse));
 }
 
 .rounded-full {
@@ -703,19 +677,37 @@ video {
   border-radius: 0.5rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-accentCyan {
+  --tw-border-opacity: 1;
+  border-color: hsl(176 68% 64% / var(--tw-border-opacity));
+}
+
+.border-b-accentCyan {
+  --tw-border-opacity: 1;
+  border-bottom-color: hsl(176 68% 64% / var(--tw-border-opacity));
+}
+
 .bg-accentCyan {
   --tw-bg-opacity: 1;
   background-color: hsl(176 68% 64% / var(--tw-bg-opacity));
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-curvy-light-mode {
@@ -734,10 +726,6 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -750,24 +738,9 @@ video {
   padding: 0.75rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
 }
 
 .px-6 {
@@ -775,32 +748,21 @@ video {
   padding-right: 1.5rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pb-24 {
-  padding-bottom: 6rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-32 {
   padding-bottom: 8rem;
 }
 
-.pb-36 {
-  padding-bottom: 9rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .text-center {
@@ -826,12 +788,22 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.text-accentCyan {
+  --tw-text-opacity: 1;
+  color: hsl(176 68% 64% / var(--tw-text-opacity));
 }
 
 .ring-4 {
@@ -898,8 +870,16 @@ video {
     margin-top: 0px;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-1 {
+    width: 0.25rem;
   }
 
   .md\:max-w-lg {
@@ -918,6 +898,10 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-4xl {
