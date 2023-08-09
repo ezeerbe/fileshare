@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -18,8 +18,8 @@
         <img class="dark:hidden" src="images/logo-light-mode.svg" alt="logo">
         <img class="hidden dark:block" src="images/logo-dark-mode.svg" alt="logo">
         <div class="md:mt-0 mt-10 flex flex-row items-center justify-center space-x-6">
-            <a href="#" class="hover:text-accentCyan">Features</a>
-            <a href="#" class="hover:text-accentCyan">Testimonials</a>
+            <a href="#feature" class="hover:text-accentCyan">Features</a>
+            <a href="#testimonials" class="hover:text-accentCyan">Testimonials</a>
             <button type="button" id="darkModeToggle"
                 class="text-sm p-2.5 rounded-lg ring-4 ring-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 dark:ring-gray-700">
                 <!-- Dark SVG Icon -->
@@ -47,7 +47,7 @@
                 wherever you need, share and collaborate with friends family, and co-workers.</p>
             <button type="button" class="w-52 rounded-full bg-accentCyan p-3 hover:scale-95">Get Started</button>
     </session>
-    <session class="bg-gray-50 dark:bg-darkBlue flex flex-col text-center">
+    <session id="feature" class="bg-gray-50 dark:bg-darkBlue flex flex-col text-center">
         <div class="px-6 container mx-auto space-y-24">
             <div class="flex flex-col items-center justify-center space-y-24 md:flex-row md:space-y-0">
                 <div class="flex flex-col items-center justify-center space-y-5 md:w-1/2">
@@ -100,7 +100,7 @@
             </div>
         </div>
     </section>
-    <session class="bg-gray-50 dark:bg-darkBlue pb-52">
+    <session id="testimonials" class="bg-gray-50 dark:bg-darkBlue pb-52">
         <div
             class="relative container mx-auto p-10 flex flex-col items-center justify-center space-y-10 md:flex-row md:space-y-0 md:space-x-10">
             <img src="images/bg-quotes.png" alt="" class="absolute top-10 left-10 w-10 md:w-20 md:-top-10">
